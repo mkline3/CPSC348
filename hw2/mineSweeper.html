@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mine Sweeper</title>
+		<h2>Mine Sweeper</h2>
+		<link href="mine.css"type="text/css"rel="stylesheet"/>
+	</head>
+	<body>
+		
+		<table>
+		<tr>
+		<td colspan = '5'><label id="counter">40</label></td>
+		<td colspan = '5'><button id="gameB"> New Game </button></td>
+		<td colspan ='5'><label id="timer">00 seconds</label></td>
+		</tr>
+		<tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		 <tr>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+			<td><button class="game"><img class = 'img' src='normal.png'> </button> </td> <td> <button class="game"><img class = 'img' src='normal.png'> </button></td>
+		 </tr>
+		</table>
+		<script src='mine.js'></script>
+	</body>
+</html>

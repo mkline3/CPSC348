@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flag Example</title>
+</head>
+
+<body>
+    <button id="btn1">no flag</button>
+    <button id="btn2">no flag</button>
+    <script>
+        /**
+        *   Using a key on the keyboard to set a flag.
+        */
+
+        //when the mouse hovers over the button, set the class to active (NOTE: this way removes all classes and adds active)
+        document.getElementById('btn1').addEventListener("mouseover", function () {
+            document.getElementById('btn1').className = "active"; // if hovered then it has class active
+        });
+
+        //when the mouse leaves, remove the active class from the button (NOTE: this way removes all classes)
+        document.getElementById('btn1').addEventListener("mouseout", function () {
+            document.getElementById('btn1').className = ""; // if hovered then it has class active
+        });
+
+        //when the mouse hovers over the button, set the class to active (NOTE: this way removes all classes and adds active)
+        document.getElementById('btn2').addEventListener("mouseover", function () {
+            document.getElementById('btn2').className = "active"; // if hovered then it has class active
+        }); 
+
+        //when the mouse leaves, remove the active class from the button (NOTE: this way removes all classes)
+        document.getElementById('btn2').addEventListener("mouseout", function () {
+            document.getElementById('btn2').className = ""; // if hovered then it has class active
+        });
+
+        //Captures the keypress for the dom root, and finds the active class to change its value.
+        document.addEventListener("keypress", function (e) {
+            if (e.keyCode == 102) { //f key was pressed
+                var btn = document.getElementsByClassName("active")[0];
+                if (btn.textContent == "Flagged") {
+                    btn.textContent = "no flag";
+                } else {
+                    btn.textContent = "Flagged";
+                }
+            }
+        });
+
+
+
+        /**
+        * Using right click to set a flag
+        */
+
+        //remove the right click menu from the page, remember bubble up, so the button doesnt need to prevent the menu also.
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault()
+        });
+
+        //when the button is right clicked on the button, change the flag. 
+        document.getElementById('btn1').addEventListener("contextmenu", function (e) {
+            if (e.target.textContent == "Flagged") {
+                e.target.textContent = "no flag";
+            } else {
+                e.target.textContent = "Flagged";
+            }
+        });
+
+        //when the button is right clicked on the button, change the flag. 
+        document.getElementById('btn2').addEventListener("contextmenu", function (e) {
+            if (e.target.textContent == "Flagged") {
+                e.target.textContent = "no flag";
+            } else {
+                e.target.textContent = "Flagged";
+            }
+        });
+    </script>
+</body>
+
+</html>
