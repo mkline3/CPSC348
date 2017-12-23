@@ -1,0 +1,50 @@
+body{
+	background-color: yellow;
+	font-family: Arial;
+}
+#one{
+	border-radius: 25px;
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+    border-bottom-width: 10px;
+	
+}	
+#list1{
+	font-family: Helvetica, "Times New Roman";
+	font-size: 125%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;
+	
+}
+#list2{
+	float:left;
+	margin:0 5px;
+	color: green;
+	border-style: solid;
+	border-width: 3px;
+	border-color: gray;
+	
+}
+.list{
+    float: left;
+    width: 33%;
+}
+a:focus{
+	color: black;
+}
+#back::first-letter{
+	font-size: 200%;
+}
+#bbody{
+	background-color: red;
+	color: white;
+}
+#hone{
+	color: black;
+}
+#bot{
+	clear: left;
+}
+	
